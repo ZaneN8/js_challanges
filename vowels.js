@@ -3,12 +3,13 @@
 // Bonus:
 // Return the vowels used and the number of times it was used.
 
+// sets vowels
 const Vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
 
-function vowelCount(word) {
+function vowelCount(word, vowels) {
   vowelNumber = 0;
 
-  if (word.includes(Vowels)) {
+  if (word.includes(vowels)) {
     vowelNumber++;
   }
 
