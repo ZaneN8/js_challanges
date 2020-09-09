@@ -6,11 +6,12 @@
 function alphabetSoup(str) {
   // take a word
 
-  str.split("").forEach(function (char) {});
+  str.split("").forEach(function (tempArray) {
+    tempArray.sort();
+  });
   // make in an array
 
-  // Arrays.sort(tempArray);
-  tempArray.sort();
+  // tempArray.sort();
   // sort array
   return str(tempArray);
   // return array as a string
