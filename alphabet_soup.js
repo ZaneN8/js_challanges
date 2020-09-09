@@ -5,17 +5,15 @@
 
 function alphabetSoup(str) {
   // take a word
-
-  str.split("").forEach(function (tempArray) {
-    tempArray.sort();
-  });
-  // make in an array
-
+  return [...str].sort().join("");
   // tempArray.sort();
-  // sort array
-  return str(tempArray);
-  // return array as a string
 }
+// make in an array
+
+// tempArray.sort();
+// sort array
+// return str(tempArray);
+// return array as a string
 
 order = alphabetSoup("hello");
 console.log(order);
